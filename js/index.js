@@ -4,34 +4,34 @@ document.getElementById('accept-name').addEventListener('click', event => {
         document.getElementById('welcome').innerHTML = 'Bienvenidx, ' + name;
         document.getElementById('questions').innerHTML = `<div class="col-10 offset-1" style="background-color: #E7D2CC; border: 2px solid #B9B7BD;">
         <div>
-          <p class="mt-2">Pregunta 1. Lorem ipsum dolor maiores itaque corporis?</p>
+          <p class="mt-2">Pregunta 1. ¿Cuantos huesos tiene el cuerpo humano?</p>
           <p>Opciones:
             <ol>
-              <li>Coffee</li>
-              <li>Tea</li>
-              <li>Milk</li>
+              <li>206</li>
+              <li>300</li>
+              <li>157</li>
               </0l>
           </p>
           <p>Tu respuesta: <input type="number" class="col-3" id="answer-one"></p>
         </div>
         <div>
-          <p class="mt-2">Pregunta 2. Lorem ipsum dolor maiores itaque corporis?</p>
+          <p class="mt-2">Pregunta 2. ¿En que año inicio la primera guerra mundial?</p>
           <p>Opciones:
             <ol>
-              <li>Coffee</li>
-              <li>Tea</li>
-              <li>Milk</li>
+              <li>1920</li>
+              <li>1900</li>
+              <li>1914</li>
               </0l>
           </p>
           <p>Tu respuesta: <input type="number" class="col-3" id="answer-two"></p>
         </div>
         <div>
-          <p class="mt-2">Pregunta 3. Lorem ipsum dolor maiores itaque corporis?</p>
+          <p class="mt-2">Pregunta 3. ¿Cuantos dias tiene un año bisiesto?</p>
           <p>Opciones:
             <ol>
-              <li>Coffee</li>
-              <li>Tea</li>
-              <li>Milk</li>
+              <li>364</li>
+              <li>366</li>
+              <li>370</li>
               </0l>
           </p>
           <p>Tu respuesta: <input type="number" class="col-3" id="answer-three"></p>
